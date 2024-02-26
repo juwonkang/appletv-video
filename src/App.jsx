@@ -5,7 +5,7 @@ import LoginPage from './pages/LoginPage'
 import MainPage from './pages/MainPage'
 import DetailPage from './pages/DetailPage'
 import SearchPage from './pages/SearchPage'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 
 const Layout = () => {
   return (
@@ -18,7 +18,8 @@ const Layout = () => {
 }
 
 function App() {
-  const ref = useRef('hi')
+  const ref = useRef('what the fuck')
+  console.log(ref)
 
   return (
     <>
